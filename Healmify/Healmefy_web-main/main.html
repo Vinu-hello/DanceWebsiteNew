@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parenting and Child Well-being Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start-section">
+            <h1>Welcome to the Well-being App</h1>
+            <button id="start-btn" class="btn">Quiz for Parents</button>
+        </div>
+
+        <div id="quiz-container" class="quiz-section">
+            <h2 id="question"></h2>
+            <div class="options">
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+                <button class="option-btn btn"></button>
+            </div>
+        </div>
+
+        <div id="result" class="quiz-section">
+            <h2>Your Parenting Care Score: <span id="care-score"></span></h2>
+            <div id="result-tips"></div>
+            <button id="ask-child-btn" class="btn">Ask Child Questions</button>
+        </div>
+
+        <div id="child-quiz-container" class="quiz-section">
+            <h2 id="child-question"></h2>
+            <div class="options">
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+                <button class="child-option-btn btn"></button>
+            </div>
+        </div>
+
+        <div id="child-result" class="quiz-section">
+            <h2>Your Child's Score: <span id="child-score"></span></h2>
+            <div id="child-tips"></div>
+            <a href="https://www.google.com/search?q=top+childcare+mental+health+experts&sca_esv=b5f308da97a3efdb&rlz=1C1CHBF_en-GBIN1083IN1083&ei=kY8bZ_OgOZSd4-EPg7bWiQk&ved=0ahUKEwizrdLbxKmJAxWUzjgGHQObNZEQ4dUDCBA&uact=5&oq=top+childcare+mental+health+experts&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3RvcCBjaGlsZGNhcmUgbWVudGFsIGhlYWx0aCBleHBlcnRzMgcQIRigARgKMgcQIRigARgKMgcQIRigARgKMgUQIRifBUjCX1CdDlibRnABeAGQAQCYAbkCoAHpC6oBBTItNS4xuAEDyAEA-AEBmAIHoAKCDMICChAAGLADGNYEGEfCAggQABiABBiiBMICBBAhGArCAgoQIRigARjDBBgKmAMA4gMFEgExIECIBgGQBgiSBwcxLjAuNS4xoAfNHA&sclient=gws-wiz-serp" id="consult-expert-btn" class="btn">Consult a Child Expert</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

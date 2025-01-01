@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "What's in My Kitchen?",
+    "version": "1.0",
+    "description": "Find recipes based on the ingredients in your kitchen.",
+    "permissions": ["storage"],
+    "host_permissions": ["https://api.spoonacular.com/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    }
+  }
+  
